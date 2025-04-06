@@ -37,7 +37,7 @@ jobs:
         with:
           target_sync_branch: main
           # REQUIRED 'target_repo_token' exactly like this!
-          target_repo_token: ${{ secrets.SYNC_PAT }}
+          target_repo_token: ${{ secrets.SYNC_TOKEN }}
           upstream_sync_branch: main
           upstream_sync_repo: tus/tusd
           # Allow merge commits by removing --ff-only
